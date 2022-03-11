@@ -8,7 +8,7 @@ function parouimpar(numero){
     }
 }
 
-parouimpar(234377)
+//parouimpar(234377)
 
 
 function soma(a, b){
@@ -18,5 +18,8 @@ function soma(a, b){
 function subtracao(a, b){
     return a - b;
 }
+
+//module.exports = parouimpar;
+//module.exports = soma;
 
 module.exports = {parouimpar, soma, subtracao};
